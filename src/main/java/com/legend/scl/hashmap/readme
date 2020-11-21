@@ -1,0 +1,16 @@
+要点记录
+1. 常量：
+    DEFAULT_INITIAL_CAPACITY = 1 << 4
+    MAXIMUM_CAPACITY = 1 << 30
+    DEFAULT_LOAD_FACTOR = 0.75f
+    TREEIFY_THRESHOLD = 8
+    UNTREEIFY_THRESHOLD = 6
+    MIN_TREEIFY_CAPACITY = 64
+2. String.hasCode()方法：h = 31 * h + val[i]，为什么乘数是31？
+3. size方法返回的是键值对的总数，用它来判断是否需要扩容
+4. resize方法：扩容
+
+
+结论：
+1. HashMap的底层结构是：数组 + 链表/红黑树
+2. HashMap的底层的数组长度一定是2的幂：有道HashMap的数组长度为什是2的次幂

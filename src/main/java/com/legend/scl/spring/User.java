@@ -1,4 +1,4 @@
-package com.legend.scls;
+package com.legend.scl.spring;
 
 public class User {
     private int id;
